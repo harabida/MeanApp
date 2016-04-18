@@ -1,0 +1,29 @@
+{
+  "name": "meanapp",
+  "version": "1.0.0",
+  "description": "mean app from tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harabida/MeanApp.git"
+  },
+  "keywords": [
+    "mean",
+    "app",
+    "from",
+    "tutorial"
+  ],
+  "author": "Mehdi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harabida/MeanApp/issues"
+  },
+  "homepage": "https://github.com/harabida/MeanApp#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0"
+  }
+}
