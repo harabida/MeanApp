@@ -1,0 +1,31 @@
+{
+  "name": "meanapp",
+  "description": "mean app from tutorial",
+  "main": "index.js",
+  "authors": [
+    "Mehdi"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "mean",
+    "app",
+    "from",
+    "tutorial"
+  ],
+  "homepage": "https://github.com/harabida/MeanApp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "toastr": "^2.1.2",
+    "angular": "^1.5.5",
+    "angular-resource": "^1.5.5",
+    "angular-route": "^1.5.5"
+  }
+}

@@ -6,6 +6,10 @@
   "scripts": {
     "test": "test"
   },
+  "engines":{
+    "node" : "4.3.x",
+    "npm" : "2.14.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/harabida/MeanApp.git"
@@ -23,7 +27,11 @@
   },
   "homepage": "https://github.com/harabida/MeanApp#readme",
   "dependencies": {
+    "body-parser": "^1.15.0",
     "express": "^4.13.4",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "mongoose": "^4.4.12",
+    "morgan": "^1.7.0",
+    "stylus": "^0.54.2"
   }
 }
