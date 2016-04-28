@@ -1,0 +1,6 @@
+.panel.panel-primary
+    .panel-heading.text-center Derniers ajouts
+    .panel-body
+        .row(ng-repeat="medicament in medicaments | orderBy:'-dateAjout' | limitTo:10 ")
+            .col-md-3 {{medicament.dateAjout | date}}
+            .col-md-3 {{medicament.nom}}

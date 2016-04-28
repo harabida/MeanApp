@@ -1,0 +1,5 @@
+.panel.panel-primary
+    .panel-heading.text-center Les plus visités
+    .panel-body
+        .row(ng-repeat="medicament in medicaments | orderBy :'-nbVisites' | limitTo:10 ")
+            .col-md-12 {{medicament.nom + ' ( ' + medicament.nbVisites + ' ) '}}

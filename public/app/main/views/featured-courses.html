@@ -1,0 +1,1 @@
+<div class="panel panel-primary"><div class="panel-heading text-center">Les plus visités</div><div class="panel-body"><div ng-repeat="medicament in medicaments | orderBy :'-nbVisites' | limitTo:10 " class="row"><div class="col-md-12">{{medicament.nom + ' ( ' + medicament.nbVisites + ' ) '}}</div></div></div></div>
